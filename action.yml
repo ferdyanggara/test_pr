@@ -1,0 +1,12 @@
+name: "test"
+description: "dfsd"
+author: "dfdf"
+
+inputs: 
+ GITHUB_TOKEN: 
+   description: "git token"
+   required: true
+
+runs: 
+  using: "node12"
+  main: 'dist/index.js'
